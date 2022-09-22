@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.Button-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .Button-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.display-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .display-message {
+    margin-top: 40px;
+  }
+}
+
+.firstname {
+  color: black;
+}
+
+button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  button {
+    margin-right: 15px;
+  }
+}
